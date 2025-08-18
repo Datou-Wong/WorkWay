@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>about</title>
-  <script type="module" crossorigin src="/WorkWay/assets/main-CQaXTiCW.js"></script>
-  <link rel="stylesheet" crossorigin href="/WorkWay/assets/main-24UNlSb9.css">
+  <script type="module" crossorigin src="/WorkWay/assets/main-zdcrAfXa.js"></script>
+  <link rel="stylesheet" crossorigin href="/WorkWay/assets/main-C1J8fh-o.css">
 </head>
 
 <body>
@@ -70,7 +70,82 @@
                         <div class="tab-content userCard shadow " id="pills-tabContent">
                             <!-- 個人資料 -->
                             <div class="tab-pane fade active" id="userPersonal" role="tabpanel"
-                                aria-labelledby="userPersonal-tab" tabindex="0">個人資料</div>
+                                aria-labelledby="userPersonal-tab" tabindex="0">
+
+                                <form action="">
+                                    <div class="d-flex gap-4 pb-5">
+                                        <!-- 左邊-->
+                                        <div class="flex-shrink-0 sortWidth">
+                                            <h2 class="fs-4">個人資料</h2>
+                                        </div>
+                                        <!-- 右邊 -->
+                                        <div class="w-100">
+                                            <!-- 大頭照 -->
+                                            <div class="d-flex align-items-end mb-4">
+                                                <img class="personal-img me-3 rounded-circle"
+                                                    src="/WorkWay/assets/avatar-QGHQ479s.png" alt="">
+                                                <label for="upload" class="btn border"><span
+                                                        class="material-symbols-outlined me-1 align-bottom">upload</span>更新頭貼</label>
+                                                <input type="file" name="upload" id="upload" class="d-none">
+                                            </div>
+                                            <!-- 姓名 -->
+                                            <div class="form-floating mb-4">
+                                                <input type="text" class="form-control" value="Mokumaru"
+                                                    id="personal-name">
+                                                <label for="personal-name">姓名</label>
+                                            </div>
+                                            <!-- 性別 -->
+                                            <div>
+                                                <p class="mb-2">性別</p>
+                                                <div class="px-2 mb-4">
+                                                    <div class="fs-14 form-check form-check-inline">
+                                                        <input class="form-check-input mb-2" type="radio"
+                                                            name="workingMode" id="fixedOffice" value="fixedOffice"
+                                                            checked>
+                                                        <label class="form-check-label me-4"
+                                                            for="fixedOffice">女性</label>
+                                                    </div>
+                                                    <div class="fs-14 form-check form-check-inline">
+                                                        <input class="form-check-input mb-2" type="radio"
+                                                            name="workingMode" id="fixedOffice" value="fixedOffice"
+                                                            >
+                                                        <label class="form-check-label me-4"
+                                                            for="fixedOffice">男性</label>
+                                                    </div>
+                                                    <div class="fs-14 form-check form-check-inline">
+                                                        <input class="form-check-input mb-2" type="radio"
+                                                            name="workingMode" id="fixedOffice" value="fixedOffice"
+                                                            >
+                                                        <label class="form-check-label me-4"
+                                                            for="fixedOffice">不願透露</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 生日 -->
+                                             
+                                            <!-- 密碼 -->
+
+                                            <!-- 信箱 -->
+
+                                            <!-- 電話 -->
+
+                                            <!-- 地址 -->
+
+                                            <!-- 儲存更新 -->
+
+
+                                        </div>
+                                    </div>
+
+
+                                </form>
+
+
+
+
+
+
+                            </div>
                             <!-- 預約紀錄 -->
                             <div class="tab-pane fade" id="userReserve" role="tabpanel"
                                 aria-labelledby="userReserve-tab" tabindex="0">
@@ -658,8 +733,10 @@
                                     </div>
                                     <!-- 匯出更新 -->
                                     <div class="text-center mb-5">
-                                        <button type="button" class="btn btn-dark me-4">匯出 PDF<span class="material-symbols-outlined ms-1 align-bottom">chevron_forward</span></button>
-                                        <button type="button" class="btn btn-outline-dark border me-8">儲存更新<span class="material-symbols-outlined ms-1 align-bottom">chevron_forward</span></button>
+                                        <button type="button" class="btn btn-dark me-4">匯出 PDF<span
+                                                class="material-symbols-outlined ms-1 align-bottom">chevron_forward</span></button>
+                                        <button type="button" class="btn btn-outline-dark border me-8">儲存更新<span
+                                                class="material-symbols-outlined ms-1 align-bottom">chevron_forward</span></button>
                                     </div>
                                 </form>
                             </div>
