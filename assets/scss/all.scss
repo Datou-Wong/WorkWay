@@ -2,6 +2,10 @@
 @import './utils/variables';
 @import "../../node_modules/bootstrap";
 
+@import "./utils/utilities";
+
+@import "bootstrap/scss/utilities/api";
+
 @import './layout/header';
 @import './layout/footer';
 
@@ -11,4 +15,22 @@
 @import './helper/spacing';
 
 @import './pages/user';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
