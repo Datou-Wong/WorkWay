@@ -17,3 +17,17 @@ a {
 .fs-14{
   font-size: 14px;
 }
+.fs-16{
+  font-size: 16px;
+}
+.fs-20{
+  font-size: 20px;
+}
+@media(min-width:768px){
+  .fs-md-20{
+    font-size: 20px;
+  }
+  .fs-md-16{
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,9 @@
+h1, .h1 {
+  font-size: 1.75rem; // 手機板
+}
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 3rem; // 桌機板
+  }
+}
